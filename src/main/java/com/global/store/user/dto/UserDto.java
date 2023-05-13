@@ -1,4 +1,4 @@
-package com.global.store.dto;
+package com.global.store.user.dto;
 
 import com.global.store.base.dto.BaseDto;
 

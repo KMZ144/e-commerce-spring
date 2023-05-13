@@ -1,6 +1,7 @@
 package com.global.store.base.service;
 
 import java.util.Optional;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -16,7 +17,7 @@ public abstract class BaseService <T extends BaseEntity<ID>,ID extends Number>  
 	@Autowired
 	private  BaseRepo<T, ID> baseRepo;
 	
-	public Iterable<T> findAll() {
+	public List<T> findAll() {
 		return baseRepo.findAll();
 	}
 	
