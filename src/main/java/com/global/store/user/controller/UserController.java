@@ -12,7 +12,7 @@ import com.global.store.user.service.UserService;
 
 
 @RestController
-@RequestMapping("/api/v1/user")
+@RequestMapping("/api/v1/users")
 public class UserController {
 	
 	@Autowired

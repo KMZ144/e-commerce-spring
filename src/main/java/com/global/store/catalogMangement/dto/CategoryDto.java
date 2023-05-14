@@ -7,17 +7,8 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class ProductDto extends BaseDto<Long> {
+public class CategoryDto extends BaseDto<Long> {
 
 	private String name;
-	
-	private double price;
-	
-	private double quantity;
-	
-	private String imgUrl; 
-	
 
-	private CategoryDto category;
-	
 }

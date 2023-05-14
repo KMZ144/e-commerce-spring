@@ -14,7 +14,7 @@ import com.global.store.user.mapper.RoleMapper;
 
 
 @RestController
-@RequestMapping("/api/v1/role")
+@RequestMapping("/api/v1/roles")
 public class RoleController {
 	
 	@Autowired
